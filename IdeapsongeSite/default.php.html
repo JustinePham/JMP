@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>IdeaSponge Inc.</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="<?php echo $this->getThemePath()?>/base.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo $this->getThemePath()?>/skeleton.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo $this->getThemePath()?>/layout.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo $this->getThemePath()?>/style.css">
+	<link rel="stylesheet" href="<?php echo $this->getThemePath()?>/slicknav.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    <!-- responsive navigation -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="<?php echo $this->getThemePath()?>/images/favicon.ico">
+	<link rel="apple-touch-icon" href="<?php echo $this->getThemePath()?>/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo $this->getThemePath()?>/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo $this->getThemePath()?>/images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+<!-- facebook plugin -->
+ <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+   <div class="fb-comments" data-href="<?php the_permalink(); ?>" data-num-posts="2" data-width="524"></div>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- NAVIGATION: Using Slicknav responsive menu -->
+
+    <div class="section navigation">
+		<nav class="container">
+        	
+          <div class="sixteen columns">
+                <ul id="menu">
+                	<li> CONNECT WITH US!
+                    	<ul style="display:inline">
+                             <li>
+                                 <a name="fb_share" type="button_count"
+                                  href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.ideasponge.com">
+                                  <img src="Images/fb.png" width="32" height="31"></a>
+                             </li>
+                             
+                             <li><a href="https://twitter.com/share?url=https%3A%2F%2Fwww.ideasponge.com" target="_blank">
+                             		<img src="Images/twitter.png" width="32" height="32"></a>
+                                <script>
+                                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+                                    if(!d.getElementById(id)){js=d.createElement(s);
+                                    js.id=id;js.src="https://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                                </script>
+                            </li>
+                  		</ul>
+                    </li>                  
+                    <li><a class="scroll" href="#stuff"> LINK </a></li>
+                    <li><a class="scroll" href="#stuff"> LINK </a></li>
+                    <li><a class="scroll" href="#stuff"> LINK </a></li>
+                </ul>       
+          </div>
+ 		</nav> <!--end container-->
+    </div> <!--end section-->     
+    
+    
+    <div class="logo"><a href="#home"><img src="Images/logo.png" width="290" height="115"></a></div>
+    
+    <div class="section blueborder">
+    </div> <!--end section-->        
+       
+    <div class="section header">
+        <div class="container">
+        
+          <div class="eleven columns">
+            	
+                <h3 class="headerquote">Creating solutions that encourage global abundance and equality...</h3>  
+                 <p>Custom development and concrete5 hosting</p>
+                 <div class ="more button">Learn More!</div>
+                 <div class ="buffer"> </div>
+          </div>
+          
+          <div class ="five columns">
+          		<img src="Images/bulb.png" width="300" height="370">
+          </div>
+        </div> <!--end container-->
+    </div> <!--end section-->        
+       
+    <div class="section quote">
+        <div class="container">
+            <div class="sixteen columns">
+                <h2 class ="quote">"We don't own ideas, they own us...&quot;</h2>          
+            </div>
+        </div> <!--end container-->
+    </div> <!--end section-->           
+       
+    <div class="section majorpages"> 
+    	
+    	<div class="container">
+            <div class="one-third column">
+            	<h3 class ="page">- PROJECTS -<br>
+            	  <br>
+                  <img src="Images/projects.png" width="97" height="97" href="#homepage"> 
+            	</h3>
+            	
+            	
+            </div>
+            <div class="one-third column">
+              <h3 class="page">- CAUSES -<br>
+                <br>
+              <img src="Images/ourcauses.png" width="97" height="97"></h3>
+             
+            </div>
+            <div class="one-third column">
+                <h3 class="page">- SERVICES -<br>
+                  <br>
+                <img src="Images/services.png" width="97" height="97"></h3>
+               
+            </div>
+		</div> <!--end container-->
+        
+        <div class="section footer">
+            <div class="container">
+                <div class="sixteen columns">
+                    <p>bottom of the page...</p>          
+                </div>
+            </div> <!--end container-->
+    	</div> <!--end section-->     
+
+<!-- JS script for responsive navigation ------------>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.slicknav.min.js"></script>
+<script src="jquery.slicknav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#menu').slicknav();
+});
+</script>
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
