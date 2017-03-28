@@ -1,3 +1,4 @@
 JMP
 ===
-testing the repository
+C++, Javascript projects. 
+
