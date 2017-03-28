@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1490703126 source:c:\users\justine\desktop\workspace\c++\priority_queue\main.cpp
+	<iostream>
+	<cctype>
+	<cstring>
+	<fstream>
+	<iomanip>
+
